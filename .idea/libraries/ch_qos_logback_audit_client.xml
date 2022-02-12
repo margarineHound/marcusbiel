@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ch.qos.logback.audit.client" type="repository">
+    <properties maven-id="ch.qos.logback:audit-client:0.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/audit-client-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/audit-common-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-core-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

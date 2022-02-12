@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c24f1e1-1a0d-4866-ab49-973386cc7f5a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/lib/slf4j-jdk14-1.7.12.jar!/org/slf4j/impl/JDK14LoggerAdapter.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="24XO7tBGOgsuk4JcyNoow3InPnT" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.marcusbiel.javacourse.lesson2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\MarcusBiel\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CarServiceTest.shouldDemonstrateLogging">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MarcusBiel" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.marcusbiel.javacourse.lesson2.CarSelector" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.marcusbiel.javacourse.lesson2.CarSelector" />
+      <module name="MarcusBiel" />
+      <option name="PROGRAM_PARAMETERS" value="flying PARKING DRIVING driving abcdfg" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CalSelectorTest.shouldCallMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarcusBiel" />
+      <option name="PACKAGE_NAME" value="com.marcusbiel.javacourse.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusbiel.javacourse.lesson2.CalSelectorTest" />
+      <option name="METHOD_NAME" value="shouldCallMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarServiceTest.shouldDemonstrateLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarcusBiel" />
+      <option name="PACKAGE_NAME" value="com.marcusbiel.javacourse.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusbiel.javacourse.lesson2.CarServiceTest" />
+      <option name="METHOD_NAME" value="shouldDemonstrateLogging" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.shouldReturnHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarcusBiel" />
+      <option name="PACKAGE_NAME" value="com.marcusbiel.javacourse.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="com.marcusbiel.javacourse.lesson2.PersonTest" />
+      <option name="METHOD_NAME" value="shouldReturnHelloWorld" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.marcusbiel.javacourse.lesson2.CarSelector" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PersonTest.shouldReturnHelloWorld" />
+      <item itemvalue="JUnit.CarServiceTest.shouldDemonstrateLogging" />
+      <item itemvalue="JUnit.CalSelectorTest.shouldCallMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CarServiceTest.shouldDemonstrateLogging" />
+        <item itemvalue="JUnit.CalSelectorTest.shouldCallMain" />
+        <item itemvalue="JUnit.PersonTest.shouldReturnHelloWorld" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
