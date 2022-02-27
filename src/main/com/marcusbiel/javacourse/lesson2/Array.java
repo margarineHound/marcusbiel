@@ -53,7 +53,8 @@ public class Array <T> implements Iterable<T> {
     }
 
     public void add(T elem){
-        if (this.len + 1 >= this.capacity) this.resize(this.capacity * 2);
+        if (this.len + 1 >= this.capacity)
+            this.resize(this.capacity * 2);
         this.arr[this.len] = elem;
         this.len++;
 
@@ -64,7 +65,7 @@ public class Array <T> implements Iterable<T> {
         for (int i = 0; i<this.capacity; i++) {
             newArr[i] = this.arr[i];
         }
-        this.len = this.capacity;
+//        this.len = this.capacity;
         this.capacity = newCapacity;
         this.arr = newArr;
     }
@@ -73,26 +74,71 @@ public class Array <T> implements Iterable<T> {
         if (rm_index >= this.len || rm_index <0) {
             throw new IndexOutOfBoundsException();
         }
+
         T[] newArr = (T[]) new Object[capacity-1];
-        T removedData = null;
-        for (int i=0; ; ) {
-
+        T removedData = this.arr[rm_index];
+        for (int i=0, j=0; i<len; i++, j++) {
+            if (i == rm_index) {
+                j--;
+                continue;
+            }
+            newArr[j] = this.arr[i];
         }
+        this.capacity = capacity-1;
+        this.len = len-1;
+        this.arr = newArr;
+        return removedData;
+    }
 
+    public boolean remove(Object obj){
+        for (int i=0; i<this.len ; i++ ) {
+            if (this.arr[i].equals(obj)) {
+                removeAt(i);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int indexOf(Object obj){
+        for (int i = 0; i<this.len ; i++ ) {
+            if (this.arr[i].equals(obj)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public boolean contains(Object obj){
+        return this.indexOf(obj) != -1;
     }
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+
+        return new Iterator<T>() {
+            int index = 0;
+            public boolean hasNext() {
+                return index < len;
+            }
+
+            public T next() {
+                return arr[index];
+            }
+        };
     }
 
     @Override
-    public void forEach(Consumer<? super T> action) {
-        Iterable.super.forEach(action);
+    public String toString(){
+        if (len<1) {
+            return "[]";
+        }
+        StringBuilder stringBuilder = new StringBuilder(2+(3*this.len));
+        stringBuilder.append("[");
+        for (int i=0;i<this.len-1;i++ ) {
+            stringBuilder.append(this.arr[i]).append(", ");
+        }
+        return stringBuilder.append(this.arr[this.len-1]).append("]").toString();
     }
 
-    @Override
-    public Spliterator<T> spliterator() {
-        return Iterable.super.spliterator();
-    }
 }
