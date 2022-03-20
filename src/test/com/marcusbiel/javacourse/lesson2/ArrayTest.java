@@ -68,7 +68,6 @@ public class ArrayTest {
 
     @Test
     public void testRemoveAt() {
-        testAdd().
     }
 
     @Test
