@@ -4,34 +4,34 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 
 public class Stack <T> implements Iterable <T>{
-    private DoublyLinkedList <T> mystack = new DoublyLinkedList<>();
+    private final DoublyLinkedList <T> stack = new DoublyLinkedList<>();
 
     public Stack(){
     }
 
     public Stack(T element){
-        this.mystack.addFirst(element);
+        this.stack.addFirst(element);
     }
 
     public boolean isEmpty(){
-        return mystack.isEmpty();
+        return stack.isEmpty();
     }
     public T pop(){
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-        return mystack.removeFirst();
+        return stack.removeFirst();
     }
 
     public void push(T obj){
-        this.mystack.addFirst(obj);
+        this.stack.addFirst(obj);
     }
 
     public T peek(){
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-        return mystack.peekFirst();
+        return stack.peekFirst();
     }
 //
 //    this was mentioned in the lesson and then not covered in the implementation
@@ -40,11 +40,11 @@ public class Stack <T> implements Iterable <T>{
 //    public int search();
 
     public int size(){
-        return mystack.size();
+        return stack.size();
     }
 
     @Override
     public Iterator <T> iterator() {
-        return mystack.iterator();
+        return stack.iterator();
     }
 }
